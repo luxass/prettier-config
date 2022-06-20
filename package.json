@@ -20,8 +20,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "bump": "bumpp package.json packages/*/package.json --commit --push --tag",
-    "release": "pnpm -r publish --access public"
+    "bump": "bumpp package.json --commit --push --tag",
+    "release": "pnpm publish --access public"
   },
   "devDependencies": {
     "@luxass/eslint-config": "*",
