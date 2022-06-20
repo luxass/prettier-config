@@ -1,6 +1,6 @@
 {
   "name": "@luxass/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Luxass' Prettier config",
   "author": "Lucas Norgaard <lucasnrgaard@gmail.com>",
   "license": "MIT",
