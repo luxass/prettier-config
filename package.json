@@ -2,7 +2,11 @@
   "name": "@luxass/prettier-config",
   "version": "1.0.1",
   "description": "Luxass' Prettier config",
-  "author": "Lucas Norgaard <lucasnrgaard@gmail.com>",
+  "author": {
+    "name": "Lucas Norgaard",
+    "email": "lucasnrgaard@gmail.com",
+    "website": "https://luxass.dev"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,9 +28,15 @@
     "release": "pnpm publish --access public"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "*",
+    "@luxass/eslint-config": "1.0.2",
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
-    "typescript": "^4.7.2"
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
   }
 }
+
