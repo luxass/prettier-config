@@ -28,7 +28,7 @@
     "release": "pnpm publish --access public"
   },
   "peerDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.1"
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0"
