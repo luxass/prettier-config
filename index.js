@@ -1,3 +1,6 @@
+// @ts-check
+
+/** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 module.exports = {
   printWidth: 80,
   tabWidth: 2,
@@ -9,9 +12,13 @@ module.exports = {
   singleQuote: false,
   quoteProps: "consistent",
   bracketSameLine: true,
-  plugins: [require("@trivago/prettier-plugin-sort-imports")],
-  importOrder: ["^@(.*)/(.*)$", "^[./]"],
+  plugins: [require("@ianvs/prettier-plugin-sort-imports")],
+  importOrder: ["^(@|~)(.*)/(.*)$", "^[./]"],
+  importOrderBuiltinModulesToTop: true,
+  importOrderCaseInsensitive: true,
+  importOrderParserPlugins: ["typescript", "jsx", "classProperties"],
+  importOrderMergeDuplicateImports: true,
+  importOrderCombineTypeAndValueImports: true,
   importOrderSeparation: true,
-  importOrderParserPlugins: ["typescript", "classProperties", "jsx"],
   importOrderSortSpecifiers: true
 };
