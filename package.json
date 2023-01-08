@@ -23,15 +23,15 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "bump": "bumpp package.json --commit --push --tag",
-    "release": "pnpm publish --access public"
+    "lint": "eslint ."
   },
   "peerDependencies": {
     "prettier": "^2.8.1"
   },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.1"
+  },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
     "@luxass/eslint-config": "2.2.4",
     "eslint": "^8.31.0",
     "prettier": "^2.8.1",
