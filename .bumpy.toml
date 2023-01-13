@@ -1,3 +1,0 @@
-[packages.prettier-config]
-type = "npm"
-path = "package.json"

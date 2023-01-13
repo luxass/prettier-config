@@ -18,7 +18,7 @@ module.exports = {
   importOrderCaseInsensitive: true,
   importOrderParserPlugins: ["typescript", "jsx", "classProperties"],
   importOrderMergeDuplicateImports: true,
-  importOrderCombineTypeAndValueImports: true,
+  importOrderCombineTypeAndValueImports: false,
   importOrderSeparation: true,
   importOrderSortSpecifiers: true
 };
