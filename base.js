@@ -12,7 +12,7 @@ module.exports = {
   plugins: [require("@ianvs/prettier-plugin-sort-imports")],
   importOrder: ["^(@|~)(.*)/(.*)$", "^[./]"],
   importOrderBuiltinModulesToTop: true,
-  importOrderCaseInsensitive: true,
+  importOrderCaseInsensitive: false,
   importOrderParserPlugins: ["typescript", "jsx", "classProperties"],
   importOrderMergeDuplicateImports: true,
   importOrderCombineTypeAndValueImports: false,
