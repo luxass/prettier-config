@@ -8,7 +8,7 @@ pnpm add -D prettier @luxass/prettier-config
 
 ## Usage
 
-`.prettier`
+`.prettierrc`
 ```json
 "@luxass/prettier-config"
 ```

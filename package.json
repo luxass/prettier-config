@@ -1,7 +1,7 @@
 {
   "name": "@luxass/prettier-config",
   "version": "1.1.4",
-  "description": "Luxass' Prettier config",
+  "description": "luxass' Prettier config",
   "author": {
     "name": "Lucas Norgaard",
     "email": "lucasnrgaard@gmail.com",
@@ -19,7 +19,9 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "base.js",
+    "tailwind.js"
   ],
   "scripts": {
     "lint": "eslint ."
@@ -34,6 +36,7 @@
     "@luxass/eslint-config": "2.2.4",
     "eslint": "^8.31.0",
     "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "typescript": "^4.9.5"
   }
 }
