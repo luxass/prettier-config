@@ -19,9 +19,7 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js",
-    "base.js",
-    "tailwind.js"
+    "*.js"
   ],
   "scripts": {
     "lint": "eslint ."
@@ -30,13 +28,13 @@
     "prettier": "^2.8.1"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^3.7.1"
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
+    "prettier-plugin-tailwindcss": "^0.2.2"
   },
   "devDependencies": {
     "@luxass/eslint-config": "2.2.4",
     "eslint": "^8.31.0",
     "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.2.2",
     "typescript": "^4.9.5"
   }
 }

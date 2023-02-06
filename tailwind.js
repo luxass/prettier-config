@@ -1,6 +1,4 @@
-const base = require("./base.js");
-
 module.exports = {
-  ...base,
-  plugins: [...base.plugins, require("prettier-plugin-tailwindcss")]
+  ...require("./base.js"),
+  plugins: [require("@ianvs/prettier-plugin-sort-imports"), require("prettier-plugin-tailwindcss")]
 };
