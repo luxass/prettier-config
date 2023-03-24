@@ -25,15 +25,15 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.7"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^3.7.1"
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "2.2.4",
-    "eslint": "^8.31.0",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.5"
+    "@luxass/eslint-config": "^3.0.1",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.2"
   }
 }
